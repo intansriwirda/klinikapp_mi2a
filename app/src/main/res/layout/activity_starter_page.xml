@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StarterPageActivity">
+    tools:context=".StarterPage">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,8 +14,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints">
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -24,33 +23,32 @@
                 app:srcCompat="@drawable/splashscreen" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="145dp"
+                android:layout_marginStart="150sp"
                 android:layout_marginTop="100sp"
-                app:srcCompat="@drawable/logo2" />
+                app:srcCompat="@drawable/logoaa" />
+
         </RelativeLayout>
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/gilda_display"
-            android:text="Manage Your Healt and Happy Future"
+            android:text="Manage Your Health and Happy Future"
             android:textAlignment="center"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Get Started"
             android:layout_gravity="center"
             android:layout_marginTop="10sp"
-            android:backgroundTint="#8BC34A"
-            android:text="Get Started" />
-
+            android:backgroundTint="#26E92E"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
